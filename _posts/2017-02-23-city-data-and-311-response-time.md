@@ -6,6 +6,6 @@ categories: bio
 ---
 
 <figure>
-    <img src="{{ddemoray.github.io}}assets/images/biophoto.png" alt="image">
+    <img src="{{ddemoray.github.io}}assets/images/bio-photo.png" alt="image">
     <figcaption></figcaption>
 </figure>
