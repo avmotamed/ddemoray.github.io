@@ -6,3 +6,6 @@ categories: bio
 ---
 
 Test
+![My helpful screenshot]({{ddemoray.github.io}/assets/images/biophoto.jpg)
+
+"/assets/images/bio-photo.jpg"
