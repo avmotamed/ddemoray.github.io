@@ -5,7 +5,7 @@ date:   2017-02-23
 categories: bio
 ---
 
-Test
-![My helpful screenshot]({{ddemoray.github.io}}/assets/images/biophoto.jpg)
-
-"/assets/images/bio-photo.jpg"
+<figure>
+    <img src="{{ddemoray.github.io}}assets/images/biophoto.png" alt="image">
+    <figcaption></figcaption>
+</figure>
