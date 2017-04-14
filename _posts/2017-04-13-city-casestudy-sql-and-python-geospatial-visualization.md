@@ -15,7 +15,6 @@ Querying a SQL database and utilizing basic aggregate functions are fairly strai
 One query in this case study was employed to: "calculate the percentage size of the city relative to the city with the largest population in the state."
 
 <pre>
-```sql
 SELECT states.name, cities.name, cities.population, MAX(population)
     OVER (PARTITION BY state_id) AS max_state_population,
     (CAST(population AS float) / (MAX(population)
@@ -23,9 +22,8 @@ SELECT states.name, cities.name, cities.population, MAX(population)
 FROM cities
 JOIN states ON states.id = cities.state_id
 ORDER BY states.name;
-```
-
 </pre>
+
 ## Python Dataframe and geospatial visualization
 
 
