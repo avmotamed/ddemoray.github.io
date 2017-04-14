@@ -10,7 +10,7 @@ If you're interested in looking under the hood you can see the code I used to co
 
 ## First up, SQL queries  
 
-Querying a SQL database and utilizing basic aggregate functions are fairly straightforward tasks.  One could easily learn how to complete these queries through any of a number of free online tutorials. Window Functions aren't as straightforward. A more advanced feature of SQL, Window Functions, allow you to perform aggregate functions on a subset of data and often allow you to do so in a way that optimizes computational performance.  One might utilize a Window Function in SQL when looking to calculate a moving average over a specific time frame.
+Querying a SQL database and utilizing basic aggregate functions are fairly straightforward tasks.  One could easily learn how to complete these queries through any of a number of free online tutorials. Window Functions aren't as straightforward. A more advanced feature of SQL, Window Functions allow you to perform aggregate functions on a subset of data and often allow you to do so in a way that optimizes computational performance.  One might utilize a Window Function in SQL when looking to calculate a moving average over a specific time frame.
 
 One query in this case study was employed to: "calculate the percentage size of the city relative to the city with the largest population in the state."
 
