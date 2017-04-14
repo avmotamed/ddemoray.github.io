@@ -6,7 +6,7 @@ categories: sql, python, basemap
 ---
 I recently completed a case study as a second round interview for a startup based in NYC.  The Objective was to confirm my ability to effectively query a SQL database and also show my ability to create a dataframe in Python and plot pertinent population data geospatially.
 
-If you're interested in looking under the hood you can see the code I used to complete the challenge here.
+If you're interested in looking under the hood you can see the code I used to complete the challenge [here](https://github.com/ddemoray/GA-DSI-projects/blob/master/capstone/Technical%20Case%20Study%20-%20SQL%20Queries%2C%20Python%20Dataframe%20%26%20Python%20Geo-Spatial%20Visualization.ipynb).
 
 ## First up, SQL queries  
 
