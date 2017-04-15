@@ -29,7 +29,9 @@ ORDER BY states.name;
 </pre>
 
 <figure>
-    <a href="/assets/images/window-function.jpg"><img src="/assets/images/window-function.jpg"></a>
+    <a href="https://raw.githubusercontent.com/ddemoray/ddemoray.github.io/master/assets/images/window-function.jpg" class="image-popup">
+    <img src="https://raw.githubusercontent.com/ddemoray/ddemoray.github.io/master/assets/images/window-function.jpg"> == $0
+    </a>
 </figure>
 
 ### Python Dataframe and Geospatial Visualization
