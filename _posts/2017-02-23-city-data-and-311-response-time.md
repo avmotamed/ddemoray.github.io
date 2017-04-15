@@ -1,9 +1,11 @@
 ---
-layout: post
 title:  "City Data and 311 Response Time"
 date:   2017-02-23
 categories: bio
+tags:
+- capstone
 ---
+
 This is my first official blog post! I've created this in order to highlight side projects.
 
 In February I completed a full-time immersive Data Science program that focused on data analysis, machine learning and modeling in Python. The program's curriculum consisted of classification, regression, clustering, git, SQL, relational databases, critical thinking, visualization, presentation and reporting skills.
