@@ -29,7 +29,7 @@ ORDER BY states.name;
 </pre>
 
 <figure>
-    <a href="/assets/images/window-function.jpg"><img src="/assets/images/window-function.jpg"></a>
+    <a href="_posts/assets/images/window-function.jpg"><img src="/assets/images/window-function.jpg"></a>
 </figure>
 
 
