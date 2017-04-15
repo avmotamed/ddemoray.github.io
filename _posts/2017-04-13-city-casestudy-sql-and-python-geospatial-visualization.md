@@ -29,7 +29,7 @@ ORDER BY states.name;
 </pre>
 
 <figure>
-    <img src="/assets/images/window-function.jpg">
+    <img src="{{site.url}}/assets/images/window-function.jpg" alt="image">
 </figure>
 
 ### Python Dataframe and Geospatial Visualization
