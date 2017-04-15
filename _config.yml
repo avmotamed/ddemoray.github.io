@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Data Science Portfolio"
+title                    : "Portfolio"
 title_separator          : "-"
 name                     : "Daniel Demoray"
 description              : "An overview of my side projects."
