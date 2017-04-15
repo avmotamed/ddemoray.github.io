@@ -2,8 +2,8 @@
 main:
   #- title: "Quick-Start Guide"
    # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-   - title: "Teaching in Vietnam"
-     url: http://veranoenvietnam.blogspot.com
+   #- title: "Teaching in Vietnam"
+     #url: http://veranoenvietnam.blogspot.com
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
