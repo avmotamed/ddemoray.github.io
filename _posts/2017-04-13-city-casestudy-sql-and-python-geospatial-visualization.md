@@ -1,7 +1,12 @@
 ---
 title:  "Case Study: SQL Queries & Geospatial Visualization"
 date:   2017-04-13
-categories: sql, python, basemap
+categories: projects
+tags: 
+- sql
+- python
+- basemap
+- visualization
 ---
 I recently completed a case study as a second round interview for a startup based in NYC.  The Objective was to confirm my ability to effectively query a SQL database and also show my ability to create a dataframe in Python and plot pertinent population data geospatially.
 

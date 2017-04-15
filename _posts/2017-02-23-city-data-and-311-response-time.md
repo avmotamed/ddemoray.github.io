@@ -1,9 +1,11 @@
 ---
 title:  "City Data and 311 Response Time"
 date:   2017-02-23
-categories: bio
+categories: projects
 tags:
 - capstone
+- python
+- machine learning
 ---
 
 This is my first official blog post! I've created this in order to highlight side projects.
