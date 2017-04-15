@@ -28,6 +28,9 @@ JOIN states ON states.id = cities.state_id
 ORDER BY states.name;
 </pre>
 
+<figure>
+    <a href="/assets/images/window-function.jpg"><img src="/assets/images/window-function.jpg"></a>
+</figure>
 
 
 ### Python Dataframe and Geospatial Visualization
