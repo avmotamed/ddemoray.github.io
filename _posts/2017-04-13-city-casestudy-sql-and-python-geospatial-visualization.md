@@ -29,8 +29,8 @@ ORDER BY states.name;
 </pre>
 
 <figure>
-    <a href="https://raw.githubusercontent.com/ddemoray/ddemoray.github.io/master/assets/images/window-function.jpg" class="image-popup">
-    <img src="https://raw.githubusercontent.com/ddemoray/ddemoray.github.io/master/assets/images/window-function.jpg"> == $0
+    <a href="https://raw.githubusercontent.com/ddemoray/ddemoray.github.io/master/assets/images/window-function.jpg" class="image">
+    <img src="https://raw.githubusercontent.com/ddemoray/ddemoray.github.io/master/assets/images/window-function.jpg">
     </a>
 </figure>
 
