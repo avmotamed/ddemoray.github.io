@@ -12,7 +12,7 @@ I recently completed a case study as a second round interview for a startup base
 
 #### If you're interested in looking under the hood you can see the code I used to complete the challenge [here](https://github.com/ddemoray/GA-DSI-projects/blob/master/capstone/Technical%20Case%20Study%20-%20SQL%20Queries%2C%20Python%20Dataframe%20%26%20Python%20Geo-Spatial%20Visualization.ipynb).
 
-### First up, SQL queries  
+## First up, SQL queries  
 
 Querying a SQL database and utilizing basic aggregate functions are fairly straightforward tasks.  One could easily learn how to complete these queries through any of a number of free online tutorials. Window Functions aren't as straightforward. A more advanced feature of SQL, Window Functions allow you to perform aggregate functions on a subset of data and often allow you to do so in a way that optimizes computational performance.  One might utilize a Window Function in SQL when looking to calculate a moving average over a specific time frame.
 
@@ -34,6 +34,53 @@ ORDER BY states.name;
     </a>
 </figure>
 
-### Python Dataframe and Geospatial Visualization
+## Python Dataframe and Geospatial Visualization
+
+Next, I connected to my local SQL database in Python to create a dataframe in Python with the goal of:
+### Determining Longitude and Latitude of all cities and inserting these into dataframe
+I did this by creating a basic function to look up the latitude and longitude for a list of values using geopy.  I inserted the resulting lists back into the dataframe and then plotted populations of active cities.
+
+<pre>
+from geopy.geocoders import Nominatim
+lat_list = []
+long_list = []
+
+def LatLong(values):
+    for x in values:
+        geolocator = Nominatim()
+        location = geolocator.geocode(x)
+        lat_list.append(location.latitude)
+        long_list.append(location.longitude)
+        
+cities = df['city'].tolist()
+LatLong(cities)
+</pre>
+
+<figure>
+    <a href="https://raw.githubusercontent.com/ddemoray/ddemoray.github.io/master/assets/images/dataframe.jpg" class="image">
+    <img src="https://raw.githubusercontent.com/ddemoray/ddemoray.github.io/master/assets/images/dataframe.jpg">
+    </a>
+</figure>
+
+### Plotting population on maps via a point with size relatively to population.
+
+<figure>
+    <a href="https://raw.githubusercontent.com/ddemoray/ddemoray.github.io/master/assets/images/US_Metros" class="image">
+    <img src="https://raw.githubusercontent.com/ddemoray/ddemoray.github.io/master/assets/images/US_Metros.jpg">
+    </a>
+</figure>
+
+<figure>
+    <a href="https://raw.githubusercontent.com/ddemoray/ddemoray.github.io/master/assets/images/WestCoast.jpg" class="image">
+    <img src="https://raw.githubusercontent.com/ddemoray/ddemoray.github.io/master/assets/images/WestCoast.jpg">
+    </a>
+</figure>
+
+<figure>
+    <a href="https://raw.githubusercontent.com/ddemoray/ddemoray.github.io/master/assets/images/Northeast.jpg" class="image">
+    <img src="https://raw.githubusercontent.com/ddemoray/ddemoray.github.io/master/assets/images/Northeast.jpg">
+    </a>
+</figure>
+
 
 
