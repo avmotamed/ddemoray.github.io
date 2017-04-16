@@ -1,6 +1,6 @@
 ---
 title:  "Case Study: SQL Queries & Geospatial Visualization"
-date:   2017-04-13
+date:   2017-04-16
 categories: projects
 tags: 
 - sql
