@@ -131,16 +131,17 @@ plt.show()
 
 <pre>
 m = Basemap(projection='mill', 
-            llcrnrlat=20,
-            llcrnrlon=-130,
-            urcrnrlat=45,
-            urcrnrlon=-110)
+            llcrnrlat=30,
+            llcrnrlon=-90,
+            urcrnrlat=50,
+            urcrnrlon=-60)
 m.drawcountries()
 m.drawcoastlines()
+# m.drawstates(color='black')
 
-lon = westcoast['longitude'].values
-lat = westcoast['latitude'].values
-size = westcoast['westcoast_pop'].values
+lon = northeast['longitude'].values
+lat = northeast['latitude'].values
+size = northeast['northeast_pop'].values
     
 xs, ys = m(lon, lat)
 m.scatter(xs, ys, marker = 'o', color = 'red', s=size*500)
@@ -149,7 +150,7 @@ m.scatter(xs, ys, marker = 'o', color = 'red', s=size*500)
 m.shadedrelief()
 
 plt.legend
-plt.title('West Coast Metros')
+plt.title('Northeast Metros')
 plt.show()
 </pre>
 
