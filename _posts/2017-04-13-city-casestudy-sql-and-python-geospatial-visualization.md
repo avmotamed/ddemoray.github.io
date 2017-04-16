@@ -107,7 +107,6 @@ m = Basemap(projection='mill',
             urcrnrlon=-110)
 m.drawcountries()
 m.drawcoastlines()
-# m.drawstates(color='black')
 
 lon = westcoast['longitude'].values
 lat = westcoast['latitude'].values
@@ -138,7 +137,6 @@ m = Basemap(projection='mill',
             urcrnrlon=-110)
 m.drawcountries()
 m.drawcoastlines()
-# m.drawstates(color='black')
 
 lon = westcoast['longitude'].values
 lat = westcoast['latitude'].values
