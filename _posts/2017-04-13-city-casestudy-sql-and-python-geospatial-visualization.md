@@ -64,17 +64,96 @@ LatLong(cities)
 
 ### Plotting population on maps via a point with size relatively to population.
 
+<pre>
+from mpl_toolkits.basemap import Basemap
+import matplotlib.pyplot as plt
+import numpy as np
+ 
+m = Basemap(projection='mill', 
+            llcrnrlat=20,
+            llcrnrlon=-130,
+            urcrnrlat=50,
+            urcrnrlon=-60)
+m.drawcountries()
+m.drawcoastlines()
+
+lon = df['longitude'].values
+lat = df['latitude'].values
+size = df['national_population'].values
+    
+xs, ys = m(lon, lat)
+m.scatter(xs, ys, marker = 'o', color = 'red', s=size*1000)
+
+
+m.shadedrelief()
+
+plt.legend
+plt.title('US Metros')
+plt.show()
+
+</pre>
+
 <figure>
     <a href="https://raw.githubusercontent.com/ddemoray/ddemoray.github.io/master/assets/images/US_Metros.jpg" class="image">
     <img src="https://raw.githubusercontent.com/ddemoray/ddemoray.github.io/master/assets/images/US_Metros.jpg">
     </a>
 </figure>
 
+<pre>
+m = Basemap(projection='mill', 
+            llcrnrlat=20,
+            llcrnrlon=-130,
+            urcrnrlat=45,
+            urcrnrlon=-110)
+m.drawcountries()
+m.drawcoastlines()
+# m.drawstates(color='black')
+
+lon = westcoast['longitude'].values
+lat = westcoast['latitude'].values
+size = westcoast['westcoast_pop'].values
+    
+xs, ys = m(lon, lat)
+m.scatter(xs, ys, marker = 'o', color = 'red', s=size*500)
+
+
+m.shadedrelief()
+
+plt.legend
+plt.title('West Coast Metros')
+plt.show()
+</pre>
+
 <figure>
     <a href="https://raw.githubusercontent.com/ddemoray/ddemoray.github.io/master/assets/images/WestCoast.jpg" class="image">
     <img src="https://raw.githubusercontent.com/ddemoray/ddemoray.github.io/master/assets/images/WestCoast.jpg">
     </a>
 </figure>
+
+<pre>
+m = Basemap(projection='mill', 
+            llcrnrlat=20,
+            llcrnrlon=-130,
+            urcrnrlat=45,
+            urcrnrlon=-110)
+m.drawcountries()
+m.drawcoastlines()
+# m.drawstates(color='black')
+
+lon = westcoast['longitude'].values
+lat = westcoast['latitude'].values
+size = westcoast['westcoast_pop'].values
+    
+xs, ys = m(lon, lat)
+m.scatter(xs, ys, marker = 'o', color = 'red', s=size*500)
+
+
+m.shadedrelief()
+
+plt.legend
+plt.title('West Coast Metros')
+plt.show()
+</pre>
 
 <figure>
     <a href="https://raw.githubusercontent.com/ddemoray/ddemoray.github.io/master/assets/images/Northeast.jpg" class="image">
