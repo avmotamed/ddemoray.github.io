@@ -65,7 +65,7 @@ LatLong(cities)
 ### Plotting population on maps via a point with size relatively to population.
 
 <figure>
-    <a href="https://raw.githubusercontent.com/ddemoray/ddemoray.github.io/master/assets/images/US_Metros" class="image">
+    <a href="https://raw.githubusercontent.com/ddemoray/ddemoray.github.io/master/assets/images/US_Metros.jpg" class="image">
     <img src="https://raw.githubusercontent.com/ddemoray/ddemoray.github.io/master/assets/images/US_Metros.jpg">
     </a>
 </figure>
