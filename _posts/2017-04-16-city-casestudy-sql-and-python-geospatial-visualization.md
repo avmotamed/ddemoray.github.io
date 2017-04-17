@@ -160,5 +160,6 @@ plt.show()
     </a>
 </figure>
 
+#### If you're interested in looking under the hood you can see the code I used to complete the challenge [here](https://github.com/ddemoray/GA-DSI-projects/blob/master/capstone/Technical%20Case%20Study%20-%20SQL%20Queries%2C%20Python%20Dataframe%20%26%20Python%20Geo-Spatial%20Visualization.ipynb).
 
 
